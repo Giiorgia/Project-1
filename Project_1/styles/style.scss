@@ -183,7 +183,9 @@
 
 .why_choose{
     position: absolute;
-    transform: translate(50%, -130%);
+    top: 50%;
+    left: 50%;
+    transform: translate(30%, -130%);
     display: flex;
     justify-content: space-between;
     column-gap: 110px;
@@ -243,4 +245,114 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: #333333;
+    margin-top: -10px;
 }
+
+.strenghts_image{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 46px;
+    padding-bottom: 197px;
+    width: 777px;
+    color: #FFFFFF;
+}
+
+.choose{
+    position: absolute;
+    margin: 0 auto;
+    background-color: #333333;
+}
+
+.choose_steps{
+    display: flex;
+    //position: absolute;
+    justify-content: space-around;
+    column-gap: 105px ;
+    align-items: center;
+}
+
+.search, .select, .book{
+    width: 250px;
+    //transform: translate(-150%, -30%);
+    //position:absolute;
+    //background-color: #333333;
+}
+
+//.select{
+    //width: 250px;
+//}
+
+//.book{
+    //width: 250px;
+//}
+
+.search p, .select p, .book p{
+    font-size: 36px;
+    color: #FFFFFF;
+    line-height: 26px;
+    font-family: 'Aleo';
+    font-weight: 200;
+    text-align: center;
+}
+
+.search .fa-magnifying-glass::before{
+    color: #5474FD;
+    //width: 99px;
+    //height: 99px;
+    display: inline-block;
+   // margin: 0 auto;
+   margin: 0 auto;
+   font-size: 40px;
+}
+
+.magnifying{
+    margin: 0 auto;
+    width: 40px;
+    padding: 0;
+}
+
+//.select p{
+    //font-size: 36px;
+    //color: #FFFFFF;
+    //line-height: 26px;
+    //font-family: 'Aleo';
+    //font-weight: 200;
+    //margin-top: 36px;
+    //text-align: center;
+//}
+
+//.book p{
+    //font-size: 36px;
+    //color: #FFFFFF;
+    //line-height: 26px;
+    //font-family: 'Aleo';
+    //font-weight: 200;
+    //text-align: center;
+//}
+
+.check{
+    width: 40px;
+    margin: 0 auto;
+    //position: absolute;
+    display: block;
+    color: #FF6363;
+}
+
+.fa-circle-check::before{
+    font-size: 40px;
+}
+
+.thumbs{
+    margin: 0 auto;
+    width: 40px;
+}
+
+.fa-thumbs-up::before{
+    color: rgb(0, 183, 255);
+    font-size: 40px;
+}
+
+
+
