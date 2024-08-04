@@ -1,4 +1,4 @@
-.body{
+.body, .html{
     padding: 0;
     //height: 100%;
     margin: 0;
@@ -18,39 +18,51 @@
     margin: 0;
     padding: 0;
     width: 100%;
+    background-image: url(/Project_1/assets/bckimage.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 264px 0px;
 }
 
 
-.header_image{
-    width: 100%;
-    position: relative;
-    margin: 0;
-}
+//.header_image{
+   //width: 100%;
+    //position: relative;
+    //margin: 0;
+//}
 
 .header_container{
     width: 100%;
 }
 
 .header_content{
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    margin-bottom: 11px;
-    margin-bottom: 48px;
+    //position: absolute;
+    //text-align: center;
+    //top: 50%;
+    //left: 50%;
+    //transform: translate(-50%, -50%);
+    //color: white;
+    //margin-bottom: 11px;
+    //margin-bottom: 48px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 653px;
 }
 
 .brand_title{
+    margin: 0 auto;
     margin-bottom: 48px;
+    width: 100%;
+    max-width: 372px;
+    color: white;
 }
 
 .header_title{
     font-size: 48px;
     font-weight: bold;
     letter-spacing: 5px;
-    line-height: 26px;
+    //line-height: 26px;
     text-transform: uppercase;
     margin: 0;
     margin-bottom: 11px;
@@ -58,9 +70,9 @@
 
 .header_motto{
     font-size: 22px;
-    line-height: 26px;
+    //line-height: 26px;
     letter-spacing: 7px;
-    color: white;
+    //color: white;
     text-align: center;
     font-weight: 300;
     margin: 0;
@@ -68,42 +80,57 @@
 
 .destination_input{
     width: 100%;
-    max-width: 503px;
+    max-width: 653px;
     margin: 0 auto;
-    transform: translate(-100px);
-}
-
-.destination{
-    width: 600px;
-    position: relative;
-    padding: 19px;
-    text-align: center;
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 2.8px;
-    line-height: 26px;
-    padding-right: 112px;
+    //transform: translate(-100px);
+    display: flex;
     margin-bottom: 108px;
 }
 
+.destination{
+    width: 503px;
+    //position: relative;
+    padding: 19px 0px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    line-height: 26px;
+    //padding-right: 112px;
+    //margin-bottom: 108px;
+    //position: relative;
+    border: white 2px solid;
+}
+
 .destination_button{
-    position: fixed;
-    transform: translate(333px, -174px);
-    width: 150px;
+    //position: fixed;
+    //transform: translate(333px, -174px);
+    //width: 150px;
+    width: 100%;
+    max-width: 150px;
     color: white;
     background-color: #5474FD;
-    padding: 19px;
+    padding: 19px 0px;
     border: transparent;
     text-transform: uppercase;
     font-size: 14px;
     line-height: 26px;
     letter-spacing: 1.4px;
     cursor: pointer;
+    border: white 1px solid;
+    //position: absolute;
 }
 
 .fa-magnifying-glass::before{
     margin-left: 5px;
     width: 22px;
+    font-size: 15px;
+}
+
+.scroll{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 123px;
 }
 
 .scroll_button{
@@ -111,19 +138,22 @@
     background: transparent;
     color: white;
     font-size: 14px;
-    letter-spacing: 2.8px;
+    letter-spacing: 3px;
     line-height: 26px;
     cursor: pointer;
+    margin: 0 auto;
+    font-weight: 300;
 }
 
 .fa-angle-down::before{
-    width: 17px;
-    height: 11px;
-    display: block;
+    //width: 17px;
+    //height: 11px;
+    //display: block;
+    font-size: 17px;
 }
 
 .header_band{
-    position:absolute;
+    //position:absolute;
     display: flex;
     background-color: #5474FD;
     justify-content: space-around;
@@ -132,8 +162,8 @@
     width: 100%;
     //max-width: 1773px;
     margin: 0;
-    transform: translate(0px, -93px);
-    max-width: 1904px;
+    //transform: translate(0px, -93px);
+    //max-width: 1904px;
     text-align: center;
     align-items: center;
 }
@@ -169,23 +199,30 @@
 .choose_section{
     margin: 0 auto;
     width: 100%;
+    background-image: url(/Project_1/assets/choosebck.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    //padding: 118px 0px;
 }
 
-.choose_image{
-    width: 100%;
-    position:relative
-}
+//.choose_image{
+    //width: 100%;
+    //position:relative
+//}
 
 .choose_container{
     margin: 0 auto;
-    position: absolute;
+    //position: absolute;
+    width: 100%;
+    max-width: 1110px;
 }
 
 .why_choose{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(30%, -130%);
+    //position: absolute;
+    //top: 50%;
+    //left: 50%;
+    //transform: translate(30%, -130%);
     display: flex;
     justify-content: space-between;
     column-gap: 110px;
@@ -193,6 +230,8 @@
 
 .strenghts{
     width: 560px ;
+    padding-top: 212px;
+    margin-bottom: 131px;
 }
 
 .strenght_heading{
@@ -236,6 +275,11 @@
     line-height: 26px;
 }
 
+.strenghts_images{
+    padding-top: 118px;
+    margin-bottom: 117px;
+}
+
 .hill{
     margin-left: 200px;
     margin-top: 10px;
@@ -246,7 +290,7 @@
     justify-content: space-around;
     align-items: center;
     background-color: #333333;
-    margin-top: -10px;
+    //margin-top: -10px;
 }
 
 .strenghts_image{
@@ -354,5 +398,211 @@
     font-size: 40px;
 }
 
+.spain_house{
+    background-image: url(/Project_1/assets/spainhouse.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin: 0 auto;
+    background-position: center;
+    //padding-top: 227px;
+}
 
+.house_description{
+    padding-top: 227px ;
+    padding-bottom: 99px ;
+    //width: 100%;
+    //max-width: 543px;
+    //background-color: #232323 ;
+    color: white;
+    margin-left: 328px;
+}
 
+.house_container{
+    background-color: #232323;
+    //padding-top: 49px;
+    //padding-left: 32px ;
+    opacity: 0.9;
+    max-width: 543px;
+    width: 100%;
+    ///min-height: 374px;
+}
+
+.house_content{
+    padding-top: 49px;
+    padding-left: 32px;
+    padding-right: 3px;
+}
+
+.house_title{
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    margin-bottom: 23px;
+    margin-top: 0;
+    max-width: 80px;
+}
+
+.house_subtitle{
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 13px;
+    margin-top: 0;
+    max-width: 241px;
+}
+
+.spain_description{
+    width: 508px;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 46px;
+    margin-top: 0;
+}
+
+.house_button{
+    background-color: #5474FD;
+    padding: 21px 0;
+    max-width: 228px;
+    width: 100%;
+    margin-bottom: 50px;
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    font-weight: 300;
+    border: none;
+}
+
+.spain_view{
+    background-image: url(/Project_1/assets/spainview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.view_description{
+    padding-top: 227px;
+    padding-bottom: 99px;
+    color: white;
+    margin-left: 898px ;
+}
+
+.tourist_section{
+    background-image: url(/Project_1/assets/tourist.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.tourist_container{
+    padding-top: 128px;
+    margin: 0 auto;
+    color: white;
+    width: 100%;
+    max-width: 1113px;
+}
+
+.tourist_title{
+    font-size: 36px;
+    font-family: 'Aleo';
+    font-weight: 300;
+    margin-bottom: 91px;
+    text-align: center;
+}
+
+.tourist_say{
+    display: flex;
+    align-items: center;
+    padding-bottom: 200px;
+}
+
+.tourist_content{
+    width: 100%;
+    max-width: 668px;
+    color: white;
+    background-color: #333333;
+    //padding-top: 49px;
+    //padding-left: 59px;
+    //padding-right: 25px;
+    //padding-bottom: 39px;
+    min-height: 287px;
+}
+
+.tourist{
+    padding-top: 49px;
+    padding-bottom: 39px ;
+    padding-left: 62px;
+    padding-right: 25px;
+}
+
+.tourist_content_title{
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 8px ;
+}
+
+.fa-quote-left::before{
+    color: #5474FD;
+    font-size: 40px;
+}
+
+.tourist_content_description{
+    width: 581px;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 26px;
+}
+
+.footer_section{
+    background-color: #232323 ;
+}
+
+.footer_container{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 196px;
+    color: white;
+    padding-top: 120px;
+    padding-bottom: 52px ;
+}
+
+.footer_title{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 3.36px;
+    margin-bottom: 8px;
+}
+
+.footer_motto{
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.footer_nav{
+    margin: 0 auto;
+    //justify-content: space-between;
+    //column-gap: 2px;
+    //width: 100%
+    text-align: center;
+}
+
+.footer_nav button{
+    border: none;
+    background: transparent;
+    color: white;
+}
+
+.nav_button i::before{
+    font-size: 16px;
+}
+
+.fa-linkedin-in::before{
+    color: #496BFE;
+}
