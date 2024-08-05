@@ -13,7 +13,7 @@
   margin: 0;
   padding: 0;
   width: 100%;
-  background-image: url(Project_1/assets/bck_image.png);
+  background-image: url(../assets/bck_image.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -159,7 +159,7 @@
 .choose_section {
   margin: 0 auto;
   width: 100%;
-  background-image: url(Project_1/assets/choose_bck_img.png);
+  background-image: url(../assets/choose_bck_img.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -312,7 +312,7 @@
 }
 
 .spain_house {
-  background-image: url(Project_1/assets/house_bck_img.png);
+  background-image: url(../assets/house_bck_img.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -382,7 +382,7 @@
 }
 
 .spain_view {
-  background-image: url(Project_1/assets/view_bck_img.png);
+  background-image: url(../assets/view_bck_img.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -396,7 +396,7 @@
 }
 
 .tourist_section {
-  background-image: url(Project_1/assets/tourist_bck_img.png);
+  background-image: url(../assets/tourist_bck_img.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
