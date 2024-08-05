@@ -22,7 +22,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 264px 0px;
+    //padding-top: 264px;
 }
 
 
@@ -48,6 +48,8 @@
     margin: 0 auto;
     width: 100%;
     max-width: 653px;
+    padding-bottom: 132px;
+    padding-top: 264px;
 }
 
 .brand_title{
@@ -415,7 +417,7 @@
     //max-width: 543px;
     //background-color: #232323 ;
     color: white;
-    margin-left: 328px;
+    padding-left: 328px;
 }
 
 .house_container{
@@ -486,7 +488,7 @@
     padding-top: 227px;
     padding-bottom: 99px;
     color: white;
-    margin-left: 898px ;
+    padding-left: 898px ;
 }
 
 .tourist_section{
