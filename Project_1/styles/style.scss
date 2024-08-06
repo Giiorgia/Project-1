@@ -303,27 +303,31 @@
     padding-bottom: 197px;
     width: 777px;
     color: #FFFFFF;
+    //margin-bottom: 25px;
 }
 
 .choose{
     position: absolute;
     margin: 0 auto;
-    background-color: #333333;
+    //background-color: #333333;
 }
 
 .choose_steps{
     display: flex;
     //position: absolute;
-    justify-content: space-around;
-    column-gap: 105px ;
+    justify-content: space-between;
+    column-gap: 150px ;
     align-items: center;
 }
 
 .search, .select, .book{
-    width: 250px;
+    //width: 250px;
     //transform: translate(-150%, -30%);
     //position:absolute;
     //background-color: #333333;
+    margin-top: 40px;
+    padding: 0;
+    background-color: #333333;
 }
 
 //.select{
@@ -343,20 +347,27 @@
     text-align: center;
 }
 
-.search .fa-magnifying-glass::before{
-    color: #5474FD;
+//.search .fa-magnifying-glass::before{
+    //color: #5474FD;
     //width: 99px;
     //height: 99px;
-    display: inline-block;
+    //display: inline-block;
    // margin: 0 auto;
-   margin: 0 auto;
-   font-size: 40px;
-}
+   //margin: 0 auto;
+   //font-size: 40px;
+//}
+
 
 .magnifying{
     margin: 0 auto;
     width: 40px;
     padding: 0;
+}
+
+.search_svg, .check_svg, .thumbs_svg{
+    width: 62px;
+    height: 60px;
+    margin-bottom: 39px;
 }
 
 //.select p{
